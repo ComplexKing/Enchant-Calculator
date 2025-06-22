@@ -1,0 +1,380 @@
+[
+  {
+    "id": "minecraft:protection",
+    "name": "Protection",
+    "max_level": 4,
+    "treasure": false,
+    "items": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:fire_protection", "minecraft:blast_protection", "minecraft:projectile_protection"]
+  },
+  {
+    "id": "minecraft:fire_protection",
+    "name": "Fire Protection",
+    "max_level": 4,
+    "treasure": false,
+    "items": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:protection", "minecraft:blast_protection", "minecraft:projectile_protection"]
+  },
+  {
+    "id": "minecraft:feather_falling",
+    "name": "Feather Falling",
+    "max_level": 4,
+    "treasure": false,
+    "items": ["Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:blast_protection",
+    "name": "Blast Protection",
+    "max_level": 4,
+    "treasure": false,
+    "items": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:protection", "minecraft:fire_protection", "minecraft:projectile_protection"]
+  },
+  {
+    "id": "minecraft:projectile_protection",
+    "name": "Projectile Protection",
+    "max_level": 4,
+    "treasure": false,
+    "items": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:protection", "minecraft:fire_protection", "minecraft:blast_protection"]
+  },
+  {
+    "id": "minecraft:respiration",
+    "name": "Respiration",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Helmet"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:aqua_affinity",
+    "name": "Aqua Affinity",
+    "max_level": 1,
+    "treasure": false,
+    "items": ["Helmet"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:thorns",
+    "name": "Thorns",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:depth_strider",
+    "name": "Depth Strider",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:frost_walker"]
+  },
+  {
+    "id": "minecraft:frost_walker",
+    "name": "Frost Walker",
+    "max_level": 2,
+    "treasure": true,
+    "items": ["Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:depth_strider"]
+  },
+  {
+    "id": "minecraft:swift_sneak",
+    "name": "Swift Sneak",
+    "max_level": 3,
+    "treasure": true,
+    "items": ["Leggings"],
+    "versions": ["1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:soul_speed",
+    "name": "Soul Speed",
+    "max_level": 3,
+    "treasure": true,
+    "items": ["Boots"],
+    "versions": ["1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:binding_curse",
+    "name": "Curse of Binding",
+    "max_level": 1,
+    "treasure": true,
+    "items": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:sharpness",
+    "name": "Sharpness",
+    "max_level": 5,
+    "treasure": false,
+    "items": ["Sword", "Axe", "Mace"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:breach", "minecraft:density"]
+  },
+  {
+    "id": "minecraft:smite",
+    "name": "Smite",
+    "max_level": 5,
+    "treasure": false,
+    "items": ["Sword", "Axe", "Mace"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:sharpness", "minecraft:bane_of_arthropods", "minecraft:breach", "minecraft:density"]
+  },
+  {
+    "id": "minecraft:bane_of_arthropods",
+    "name": "Bane of Arthropods",
+    "max_level": 5,
+    "treasure": false,
+    "items": ["Sword", "Axe", "Mace"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:sharpness", "minecraft:smite", "minecraft:breach", "minecraft:density"]
+  },
+  {
+    "id": "minecraft:knockback",
+    "name": "Knockback",
+    "max_level": 2,
+    "treasure": false,
+    "items": ["Sword"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:fire_aspect",
+    "name": "Fire Aspect",
+    "max_level": 2,
+    "treasure": false,
+    "items": ["Sword", "Mace"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:looting",
+    "name": "Looting",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Sword"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:sweeping_edge",
+    "name": "Sweeping Edge",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Sword"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:breach",
+    "name": "Breach",
+    "max_level": 4,
+    "treasure": false,
+    "items": ["Mace"],
+    "versions": ["1.21"],
+    "conflicts": ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:density"]
+  },
+  {
+    "id": "minecraft:density",
+    "name": "Density",
+    "max_level": 5,
+    "treasure": false,
+    "items": ["Mace"],
+    "versions": ["1.21"],
+    "conflicts": ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:breach"]
+  },
+  {
+    "id": "minecraft:wind_burst",
+    "name": "Wind Burst",
+    "max_level": 3,
+    "treasure": true,
+    "items": ["Mace"],
+    "versions": ["1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:efficiency",
+    "name": "Efficiency",
+    "max_level": 5,
+    "treasure": false,
+    "items": ["Pickaxe", "Axe", "Shovel", "Hoe", "Shears"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:silk_touch",
+    "name": "Silk Touch",
+    "max_level": 1,
+    "treasure": false,
+    "items": ["Pickaxe", "Axe", "Shovel", "Shears"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:fortune"]
+  },
+  {
+    "id": "minecraft:fortune",
+    "name": "Fortune",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Pickaxe", "Axe", "Shovel", "Hoe"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:silk_touch"]
+  },
+  {
+    "id": "minecraft:power",
+    "name": "Power",
+    "max_level": 5,
+    "treasure": false,
+    "items": ["Bow"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:punch",
+    "name": "Punch",
+    "max_level": 2,
+    "treasure": false,
+    "items": ["Bow"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:flame",
+    "name": "Flame",
+    "max_level": 1,
+    "treasure": false,
+    "items": ["Bow"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:infinity",
+    "name": "Infinity",
+    "max_level": 1,
+    "treasure": false,
+    "items": ["Bow"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:mending"]
+  },
+  {
+    "id": "minecraft:luck_of_the_sea",
+    "name": "Luck of the Sea",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Fishing Rod"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:lure",
+    "name": "Lure",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Fishing Rod"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:channeling",
+    "name": "Channeling",
+    "max_level": 1,
+    "treasure": false,
+    "items": ["Trident"],
+    "versions": ["1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:riptide"]
+  },
+  {
+    "id": "minecraft:loyalty",
+    "name": "Loyalty",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Trident"],
+    "versions": ["1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:riptide"]
+  },
+  {
+    "id": "minecraft:riptide",
+    "name": "Riptide",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Trident"],
+    "versions": ["1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:loyalty", "minecraft:channeling"]
+  },
+  {
+    "id": "minecraft:impaling",
+    "name": "Impaling",
+    "max_level": 5,
+    "treasure": false,
+    "items": ["Trident"],
+    "versions": ["1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:multishot",
+    "name": "Multishot",
+    "max_level": 1,
+    "treasure": false,
+    "items": ["Crossbow"],
+    "versions": ["1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:piercing"]
+  },
+  {
+    "id": "minecraft:piercing",
+    "name": "Piercing",
+    "max_level": 4,
+    "treasure": false,
+    "items": ["Crossbow"],
+    "versions": ["1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:multishot"]
+  },
+  {
+    "id": "minecraft:quick_charge",
+    "name": "Quick Charge",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Crossbow"],
+    "versions": ["1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:mending",
+    "name": "Mending",
+    "max_level": 1,
+    "treasure": true,
+    "items": ["Helmet", "Chestplate", "Leggings", "Boots", "Sword", "Axe", "Pickaxe", "Shovel", "Hoe", "Bow", "Crossbow", "Trident", "Fishing Rod", "Shears", "Flint and Steel", "Shield", "Elytra", "Brush", "Mace"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": ["minecraft:infinity"]
+  },
+  {
+    "id": "minecraft:unbreaking",
+    "name": "Unbreaking",
+    "max_level": 3,
+    "treasure": false,
+    "items": ["Helmet", "Chestplate", "Leggings", "Boots", "Sword", "Axe", "Pickaxe", "Shovel", "Hoe", "Bow", "Crossbow", "Trident", "Fishing Rod", "Shears", "Flint and Steel", "Shield", "Elytra", "Brush", "Mace"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  },
+  {
+    "id": "minecraft:vanishing_curse",
+    "name": "Curse of Vanishing",
+    "max_level": 1,
+    "treasure": true,
+    "items": ["All"],
+    "versions": ["1.12", "1.13", "1.16", "1.20", "1.21"],
+    "conflicts": []
+  }
+]

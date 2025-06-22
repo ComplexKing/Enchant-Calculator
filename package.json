@@ -2,6 +2,7 @@
   "name": "minecraft-enchant-calculator",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://ComplexKing.github.io/Enchant-Calculator",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
